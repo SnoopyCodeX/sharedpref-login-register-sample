@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<Button
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Login Account"
+		android:layout_gravity="right"
+		android:id="@+id/loginbtn"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:text="Register Panel"
+		android:gravity="center"
+		android:textStyle="bold"
+		android:layout_marginTop="30dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:textSize="30sp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:text="Username"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="50dp"
+		android:textStyle="bold"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_gravity="center"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:id="@+id/username"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:text="Password"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginTop="50dp"
+		android:textStyle="bold"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="textPassword"
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_gravity="center"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:id="@+id/password"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Register"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:id="@+id/btnregister"/>
+
+</LinearLayout>
+
